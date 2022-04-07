@@ -26,6 +26,7 @@ namespace NerdStore.Catalogo.Domain
         public string Imagem { get; private set; }
         public int QuantidadeEstoque { get; private set; }
         public Categoria Categoria { get; private set; }
+        public Dimensoes Dimensoes { get; private set; }
 
         public void Ativar() => Ativo = true;
 
